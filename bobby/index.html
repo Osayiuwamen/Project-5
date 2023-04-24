@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
     <title>Happy Task</title>
-    <script>
+    <script src="script.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- <script>
       let p1 = true;
       function changeState() {
         p1 = false;
@@ -14,7 +17,7 @@
       document
         .getElementById("lowEnergy")
         .element.addEventListener("mousedown", changeState);
-    </script>
+    </script> -->
   </head>
   <body class="bg-[#D1D2DA] w-full h-full">
     <div class="md:flex items-center">
@@ -145,7 +148,7 @@
           </p>
           <div class="">
             <div class="flex justify-center gap-8 text-center">
-              <div class="cursor-pointer">
+              <div class="low-energy-button cursor-pointer">
                 <p class="py-3">Low Energy</p>
                 <div id="lowEnergy">
                   <svg
@@ -189,7 +192,7 @@
                   </svg>
                 </div>
               </div>
-              <div class="cursor-pointer">
+              <div class="anxiety-button cursor-pointer">
                 <p class="py-3">Anxiety</p>
                 <div>
                   <svg
@@ -233,7 +236,7 @@
                   </svg>
                 </div>
               </div>
-              <div class="cursor-pointer">
+              <div class="uninspired-button cursor-pointer">
                 <p class="py-3">Uninspired</p>
                 <div>
                   <svg
@@ -393,8 +396,9 @@
                 </svg>
               </div>
             </div>
-            <p class="text-white">Enjoy the window</p>
-            <p class="text-white-buttom">View for 15 minutes</p>
+            <p class="text-white assigned-task"></p>
+            <!-- <p class="text-white">Enjoy the window</p> -->
+            <!-- <p class="text-white">View for 15 minutes</p> -->
             <div
               class="p-2 absolute flex justify-center items-center mx-auto -bottom-[50%] left-[45%]"
             >
