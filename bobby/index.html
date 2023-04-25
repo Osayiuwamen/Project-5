@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
     <link href="style.css" rel="stylesheet" />
     <title>Happy Task</title>
     <script src="script.js" async defer></script>
@@ -150,7 +151,7 @@
             <div class="flex justify-center gap-8 text-center">
               <div class="low-energy-button cursor-pointer">
                 <p class="py-3">Low Energy</p>
-                <div id="lowEnergy">
+                <div id="lowEnergy1">
                   <svg
                     width="74"
                     height="61"
@@ -191,10 +192,54 @@
                     />
                   </svg>
                 </div>
+                <div id="lowEnergy2" class="hidden">
+                  <svg
+                    width="74"
+                    height="61"
+                    viewBox="0 0 58 47"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.812317 0.837158H5.74914C7.98126 0.837158 9.79074 2.64336 9.79074 4.87142V8.81189"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M48.3315 8.81214V4.87167C48.3315 2.6436 50.141 0.837402 52.3731 0.837402H57.3089"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M48.3311 8.04518V31.4823C48.3311 39.7857 41.5876 46.517 33.2691 46.517H24.8523C16.5338 46.517 9.79028 39.7857 9.79028 31.4823V8.04518C14.1027 6.56258 20.7744 4.82483 29.0607 4.82483C37.347 4.82483 44.0187 6.56258 48.3311 8.04518Z"
+                      fill="#B32C2C"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M36.3871 33.1335C34.9071 33.7447 32.3433 34.5865 29.0607 34.5865C27.4589 34.5865 24.7674 34.3861 21.7342 33.1335"
+                      stroke="#FEB7B7"
+                      stroke-width="2.14757"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M22.1489 24.2457C24.0062 24.2457 25.5118 22.0061 25.5118 19.2434C25.5118 16.4807 24.0062 14.2411 22.1489 14.2411C20.2916 14.2411 18.786 16.4807 18.786 19.2434C18.786 22.0061 20.2916 24.2457 22.1489 24.2457Z"
+                      fill="#FEB7B7"
+                    />
+                    <path
+                      d="M35.9724 24.2413C37.8281 24.2413 39.3324 22.0036 39.3324 19.2433C39.3324 16.483 37.8281 14.2454 35.9724 14.2454C34.1168 14.2454 32.6124 16.483 32.6124 19.2433C32.6124 22.0036 34.1168 24.2413 35.9724 24.2413Z"
+                      fill="#FEB7B7"
+                    />
+                  </svg>
+                </div>
               </div>
               <div class="anxiety-button cursor-pointer">
                 <p class="py-3">Anxiety</p>
-                <div>
+                <div id="anxiety1">
                   <svg
                     width="74"
                     height="61"
@@ -235,10 +280,54 @@
                     />
                   </svg>
                 </div>
+                <div id="anxiety2" class="hidden">
+                  <svg
+                    width="74"
+                    height="61"
+                    viewBox="0 0 58 47"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M48.4082 8.04481V31.482C48.4082 39.7854 41.6769 46.5166 33.3735 46.5166H24.972C16.6687 46.5166 9.93741 39.7854 9.93741 31.482V8.04481C14.242 6.56222 20.9015 4.82446 29.1728 4.82446C37.444 4.82446 44.1036 6.56222 48.4082 8.04481Z"
+                      fill="#3F8F50"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M0.975769 0.837158H5.90362C8.13169 0.837158 9.93789 2.64336 9.93789 4.87142V8.81189"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M48.4087 8.81177V4.8713C48.4087 2.64323 50.2149 0.837036 52.443 0.837036H57.3698"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M36.4861 31.4451C36.1191 31.8733 33.5145 34.809 29.1729 34.809C28.6089 34.809 24.6849 34.7417 21.8597 31.4451"
+                      stroke="#A8F1B8"
+                      stroke-width="2.14757"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M22.2736 24.4679C24.1275 24.4679 25.6304 22.2283 25.6304 19.4657C25.6304 16.7031 24.1275 14.4635 22.2736 14.4635C20.4198 14.4635 18.9169 16.7031 18.9169 19.4657C18.9169 22.2283 20.4198 24.4679 22.2736 24.4679Z"
+                      fill="#A8F1B8"
+                    />
+                    <path
+                      d="M36.0721 24.4631C37.9261 24.4631 39.4291 22.2246 39.4291 19.4631C39.4291 16.7017 37.9261 14.4631 36.0721 14.4631C34.2181 14.4631 32.7152 16.7017 32.7152 19.4631C32.7152 22.2246 34.2181 24.4631 36.0721 24.4631Z"
+                      fill="#A8F1B8"
+                    />
+                  </svg>
+                </div>
               </div>
               <div class="uninspired-button cursor-pointer">
                 <p class="py-3">Uninspired</p>
-                <div>
+                <div id="uninspired1">
                   <svg
                     width="74"
                     height="61"
@@ -279,86 +368,61 @@
                     />
                   </svg>
                 </div>
+                <div id="uninspired2" class="hidden">
+                  <svg
+                    width="74"
+                    height="61"
+                    viewBox="0 0 58 47"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M48.252 8.04505V31.4822C48.252 39.7856 41.5208 46.5168 33.2174 46.5168H24.8159C16.5125 46.5168 9.78128 39.7856 9.78128 31.4822V8.04505C14.0858 6.56246 20.7454 4.82471 29.0167 4.82471C37.2879 4.82471 43.9475 6.56246 48.252 8.04505Z"
+                      fill="#5B7D9B"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M0.819702 0.837158H5.74755C7.97562 0.837158 9.78182 2.64336 9.78182 4.87142V8.81189"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M48.2526 8.81189V4.87142C48.2526 2.64336 50.0588 0.837158 52.2868 0.837158H57.2137"
+                      stroke="#1D1D1B"
+                      stroke-width="0.770605"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M36.2531 29.8558C35.0962 32.835 32.2126 34.8087 29.0166 34.8087C25.8207 34.8087 22.937 32.835 21.7802 29.8558"
+                      stroke="#ABD0F0"
+                      stroke-width="2.12505"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M22.1898 24.4289C24.0436 24.4289 25.5464 22.1894 25.5464 19.4268C25.5464 16.6642 24.0436 14.4247 22.1898 14.4247C20.3359 14.4247 18.8331 16.6642 18.8331 19.4268C18.8331 22.1894 20.3359 24.4289 22.1898 24.4289Z"
+                      fill="#ABD0F0"
+                    />
+                    <path
+                      d="M35.8435 24.425C37.6959 24.425 39.1975 22.1873 39.1975 19.4269C39.1975 16.6665 37.6959 14.4288 35.8435 14.4288C33.9912 14.4288 32.4895 16.6665 32.4895 19.4269C32.4895 22.1873 33.9912 24.425 35.8435 24.425Z"
+                      fill="#ABD0F0"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="bg-black rounded-b-2xl text-center pt-5 text-white text-2xl pb-20 mt-10 relative"
+            class="bg-black rounded-b-2xl text-center pt-10 pb-24 text-white text-2xl mt-10 relative w-full"
           >
-            <div>
+            <div class="w-full">
               <!--emotion states-->
-              <div class="ml-[47%]">
+              <div class="w-full pt-8 hidden" id="completed">
                 <svg
-                  width="54"
-                  height="39"
-                  viewBox="0 0 54 39"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_23_1013)">
-                    <path
-                      d="M9.85681 21.9377C8.67651 21.5466 7.56691 22.8254 7.91101 24.193C9.93781 32.2491 17.7417 38.255 27.0833 38.255C36.4249 38.255 44.2287 32.2491 46.2556 24.193C46.5996 22.8254 45.4901 21.5466 44.3097 21.9377C39.1281 23.6545 33.2782 24.6232 27.0833 24.6232C20.8884 24.6232 15.0384 23.6545 9.85681 21.9377Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M53.9336 4.87818C53.9336 7.28888 51.9794 9.24308 49.5687 9.24308C47.158 9.24308 45.2037 7.28888 45.2037 4.87818C45.2037 2.46748 47.158 0.513184 49.5687 0.513184C51.9794 0.513184 53.9336 2.46748 53.9336 4.87818Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M8.96281 4.87818C8.96281 7.28888 7.00861 9.24308 4.59791 9.24308C2.18721 9.24308 0.23291 7.28888 0.23291 4.87818C0.23291 2.46748 2.18721 0.513184 4.59791 0.513184C7.00861 0.513184 8.96281 2.46748 8.96281 4.87818Z"
-                      fill="white"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_23_1013">
-                      <rect
-                        width="53.7007"
-                        height="37.7417"
-                        fill="white"
-                        transform="translate(0.23291 0.513184)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ml-[47%]">
-                <svg
-                  width="54"
-                  height="39"
-                  viewBox="0 0 54 39"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_23_1893)">
-                    <path
-                      d="M44.3098 38.3748C45.4901 38.7659 46.5997 37.4871 46.2556 36.1195C44.2288 28.0634 36.4249 22.0575 27.0833 22.0575C17.7417 22.0575 9.93791 28.0634 7.91101 36.1195C7.56701 37.4871 8.67651 38.7659 9.85691 38.3748C15.0385 36.658 20.8884 35.6893 27.0833 35.6893C33.2782 35.6893 39.1282 36.658 44.3098 38.3748Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M53.9336 5.06959C53.9336 7.48029 51.9794 9.43449 49.5687 9.43449C47.158 9.43449 45.2037 7.48029 45.2037 5.06959C45.2037 2.65889 47.158 0.70459 49.5687 0.70459C51.9794 0.70459 53.9336 2.65889 53.9336 5.06959Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M8.96281 5.06959C8.96281 7.48029 7.00861 9.43449 4.59791 9.43449C2.18721 9.43449 0.23291 7.48029 0.23291 5.06959C0.23291 2.65889 2.18721 0.70459 4.59791 0.70459C7.00861 0.70459 8.96281 2.65889 8.96281 5.06959Z"
-                      fill="white"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_23_1893">
-                      <rect
-                        width="53.7007"
-                        height="37.7417"
-                        fill="white"
-                        transform="translate(0.23291 0.70459)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <p class="underline underline-offset-8">Uninspired</p>
-              <!--emotion text-->
-              <div class="ml-[45%]">
-                <svg
+                  class="mx-auto"
                   width="110"
                   height="80"
                   viewBox="0 0 110 80"
@@ -395,29 +459,158 @@
                   </defs>
                 </svg>
               </div>
+              <div class="w-full hidden" id="emotions">
+                <div class="w-full hidden" id="happy-face">
+                  <svg
+                    class="mx-auto"
+                    width="54"
+                    height="39"
+                    viewBox="0 0 54 39"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_23_1013)">
+                      <path
+                        d="M9.85681 21.9377C8.67651 21.5466 7.56691 22.8254 7.91101 24.193C9.93781 32.2491 17.7417 38.255 27.0833 38.255C36.4249 38.255 44.2287 32.2491 46.2556 24.193C46.5996 22.8254 45.4901 21.5466 44.3097 21.9377C39.1281 23.6545 33.2782 24.6232 27.0833 24.6232C20.8884 24.6232 15.0384 23.6545 9.85681 21.9377Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M53.9336 4.87818C53.9336 7.28888 51.9794 9.24308 49.5687 9.24308C47.158 9.24308 45.2037 7.28888 45.2037 4.87818C45.2037 2.46748 47.158 0.513184 49.5687 0.513184C51.9794 0.513184 53.9336 2.46748 53.9336 4.87818Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M8.96281 4.87818C8.96281 7.28888 7.00861 9.24308 4.59791 9.24308C2.18721 9.24308 0.23291 7.28888 0.23291 4.87818C0.23291 2.46748 2.18721 0.513184 4.59791 0.513184C7.00861 0.513184 8.96281 2.46748 8.96281 4.87818Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_23_1013">
+                        <rect
+                          width="53.7007"
+                          height="37.7417"
+                          fill="white"
+                          transform="translate(0.23291 0.513184)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <svg
+                    class="mx-auto"
+                    width="54"
+                    height="39"
+                    viewBox="0 0 54 39"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_23_1893)">
+                      <path
+                        d="M44.3098 38.3748C45.4901 38.7659 46.5997 37.4871 46.2556 36.1195C44.2288 28.0634 36.4249 22.0575 27.0833 22.0575C17.7417 22.0575 9.93791 28.0634 7.91101 36.1195C7.56701 37.4871 8.67651 38.7659 9.85691 38.3748C15.0385 36.658 20.8884 35.6893 27.0833 35.6893C33.2782 35.6893 39.1282 36.658 44.3098 38.3748Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M53.9336 5.06959C53.9336 7.48029 51.9794 9.43449 49.5687 9.43449C47.158 9.43449 45.2037 7.48029 45.2037 5.06959C45.2037 2.65889 47.158 0.70459 49.5687 0.70459C51.9794 0.70459 53.9336 2.65889 53.9336 5.06959Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M8.96281 5.06959C8.96281 7.48029 7.00861 9.43449 4.59791 9.43449C2.18721 9.43449 0.23291 7.48029 0.23291 5.06959C0.23291 2.65889 2.18721 0.70459 4.59791 0.70459C7.00861 0.70459 8.96281 2.65889 8.96281 5.06959Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_23_1893">
+                        <rect
+                          width="53.7007"
+                          height="37.7417"
+                          fill="white"
+                          transform="translate(0.23291 0.70459)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <p class="mt-2 mb-4" id="mood">Uninspired</p>
+                <div class="h-[2px] w-[80%] bg-gray-300 mx-auto"></div>
+              </div>
+              <div class="w-full" id="welcome">
+                <div class="flex my-3 justify-center">
+                  <svg
+                    width="55"
+                    height="39"
+                    viewBox="0 0 55 39"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_23_971)">
+                      <path
+                        d="M10.3124 21.7099C9.13211 21.3188 8.02251 22.5976 8.36661 23.9652C10.3934 32.0213 18.1973 38.0272 27.5389 38.0272C36.8805 38.0272 44.6843 32.0213 46.7112 23.9652C47.0552 22.5976 45.9457 21.3188 44.7653 21.7099C39.5837 23.4267 33.7338 24.3954 27.5389 24.3954C21.344 24.3954 15.494 23.4267 10.3124 21.7099Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M54.3892 4.6504C54.3892 7.0611 52.435 9.0153 50.0243 9.0153C47.6136 9.0153 45.6593 7.0611 45.6593 4.6504C45.6593 2.2397 47.6136 0.2854 50.0243 0.2854C52.435 0.2854 54.3892 2.2397 54.3892 4.6504Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M9.41841 4.6504C9.41841 7.0611 7.46421 9.0153 5.05351 9.0153C2.64281 9.0153 0.688507 7.0611 0.688507 4.6504C0.688507 2.2397 2.64281 0.2854 5.05351 0.2854C7.46421 0.2854 9.41841 2.2397 9.41841 4.6504Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_23_971">
+                        <rect
+                          width="53.7007"
+                          height="37.7417"
+                          fill="white"
+                          transform="translate(0.688507 0.2854)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <p class="text-center">Get happy with happy</p>
+              </div>
+
+              <!--emotion text-->
             </div>
-            <p class="text-white assigned-task"></p>
+            <p class="text-white assigned-task mt-3">Task</p>
             <!-- <p class="text-white">Enjoy the window</p> -->
             <!-- <p class="text-white">View for 15 minutes</p> -->
             <div
-              class="p-2 absolute flex justify-center items-center mx-auto -bottom-[50%] left-[45%]"
+              class="p-2 absolute flex justify-center items-center mx-auto -bottom-[50%] w-full"
             >
               <div class="">
-                <div class="bg-[#D1D2DA] p-2 rounded-full cursor-pointer">
+                <div
+                  class="bg-black p-2 rounded-full cursor-pointer border-8 border-[#D1D2DA]"
+                >
                   <div>
                     <div
-                      class="text-[#F8C860] text-center bg-[#161616] rounded-full py-5 px-7"
+                      class="text-[#F8C860] text-center bg-[#161616] rounded-full h-[90px] w-[90px] flex justify-center items-center"
                     >
-                      <p>15</p>
-                      <p>MIN</p>
+                      <p class="" id="timer">15:00s</p>
                     </div>
                   </div>
                 </div>
-                <p
-                  class="cursor-pointer my-2 break-keep bg-black text-green-600 ring ring-slate-500 ring-offset-4 p-2 rounded-lg"
+                <div class="border border-black p-[2px] rounded-lg" id="start">
+                  <p
+                    class="cursor-pointer break-keep bg-black text-green-600 p-2 rounded-lg"
+                    onclick="startTimer()"
+                  >
+                    START
+                  </p>
+                </div>
+                <div
+                  class="border border-black p-[2px] rounded-lg hidden"
+                  id="stop"
                 >
-                  Start
-                </p>
+                  <p
+                    class="cursor-pointer break-keep bg-black text-red-700 p-2 rounded-lg"
+                    onclick="stopTimer()"
+                  >
+                    STOP
+                  </p>
+                </div>
               </div>
             </div>
           </div>
