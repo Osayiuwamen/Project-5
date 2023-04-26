@@ -1,26 +1,26 @@
 [
-	{
-		"task": "Watch a TV show"
-	},
-    {
-		"task": "Watch a movie"
-	},
-    {
-		"task": "Go for a leisurely walk"
-	},
-    {
-		"task": "Do some light stretching"
-	},
-    {
-		"task": "Write in a journal"
-	},
-    {
-		"task": "Do some meditate"
-	},
-    {
-		"task": "Do some gentle yoga"
-	},
-    {
-		"task": "Take a warm bath"
-	}
+  {
+    "task": "Do some mindfulness meditation"
+  },
+  {
+    "task": "Do a deep breathing exercises"
+  },
+  {
+    "task": "Listening to a calm music"
+  },
+  {
+    "task": "Do some light stretching"
+  },
+  {
+    "task": "Create a to-do list and prioritize tasks"
+  },
+  {
+    "task": "Express emotions through art"
+  },
+  {
+    "task": "Do some gentle yoga"
+  },
+  {
+    "task": "Take a warm bath or shower"
+  }
 ]

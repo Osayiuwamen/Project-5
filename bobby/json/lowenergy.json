@@ -1,26 +1,26 @@
 [
-	{
-		"task": "Watch a TV show"
-	},
-    {
-		"task": "Watch a movie"
-	},
-    {
-		"task": "Go for a leisurely walk"
-	},
-    {
-		"task": "Do some light stretching"
-	},
-    {
-		"task": "Write in a journal"
-	},
-    {
-		"task": "Do some meditate"
-	},
-    {
-		"task": "Do some gentle yoga"
-	},
-    {
-		"task": "Take a warm bath"
-	}
+  {
+    "task": "Make a to-do list to prepare for the next day"
+  },
+  {
+    "task": "Sorting through your mail and shredding or recycling unnecessary documents"
+  },
+  {
+    "task": "Plan your meals for the upcoming week"
+  },
+  {
+    "task": "Take a short nap or rest for a few minutes"
+  },
+  {
+    "task": "Browse through your favorite magazines or books"
+  },
+  {
+    "task": "Watch a short video or TV show episode"
+  },
+  {
+    "task": "Send a quick message to a loved one"
+  },
+  {
+    "task": "Do some light stretching or yoga"
+  }
 ]
